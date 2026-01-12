@@ -36,9 +36,9 @@ module Encoder(
 
 // --------------proposed app voter -------------------------
     `elsif __Pro_AOI_I_V__
-        Pro_AOI u_voter(difference,toggle);
+        Pro_AOI_I u_voter(difference,toggle);
     `elsif __Pro_AOI_II_V__
-        Pro_AOI2 u_voter(difference,toggle);
+        Pro_AOI_II u_voter(difference,toggle);
      
 
 // --------------- majority voter -------------------
