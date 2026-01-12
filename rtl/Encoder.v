@@ -26,8 +26,6 @@ module Encoder(
 //  ----------------approximate voter --------------------- 
     `ifdef __AOI_AOI_V__
         AOI_AOI u_voter(difference,toggle);
-    `elsif __AOI_NAND_V__
-        AOI_NAND u_voter(difference,toggle);
     `elsif __FM_V__
         FM u_voter(difference,toggle);
     `elsif __F0_V__
