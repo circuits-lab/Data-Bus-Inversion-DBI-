@@ -1,10 +1,10 @@
-`ifndef __Pro_AOI2_V__
-`define __Pro_AOI2_V__
+`ifndef __Pro_AOI_II_V__
+`define __Pro_AOI_II_V__
 
 
 //================== Opzimied ==============================================
 
-module Pro_AOI2(i,o);
+module Pro_AOI_II(i,o);
     input [8:0] i;
     output o;
     wire w1,w2,w3,w4,w5;
